@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="calculadora_BCD.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="calculadora.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="calculadora.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="calculadora.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="calculadora.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="calculadora.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="calculadora.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="calculadora.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="calculadora.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="calculadora.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="calculadora.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="calculadora.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="calculadora.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="calculadora.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="calculadora.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="calculadora.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="calculadora.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="calculadora.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="calculadora.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="calculadora.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="calculadora_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="calculadora_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="calculadora_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="calculadora_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="calculadora_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="calculadora_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="calculadora_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="calculadora_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="calculadora_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="calculadora_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="calculadora_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="calculadora_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="calculadora_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="calculadora_usage.xml"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="calculadora_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="calculadora_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="multiplicador4x4.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="multiplicador4x4.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="multiplicador4x4.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="multiplicador4x4.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="multiplicador4x4.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="multiplicador4x4.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="multiplicador4x4.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="multiplicador4x4.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="multiplicador4x4.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multiplicador4x4.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="multiplicador4x4.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="multiplicador4x4.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="multiplicador4x4.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="multiplicador4x4.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="multiplicador4x4.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="multiplicador4x4.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="multiplicador4x4_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="multiplicador4x4_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="multiplicador4x4_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="multiplicador4x4_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="multiplicador4x4_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="multiplicador4x4_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="multiplicador4x4_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="multiplicador4x4_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="multiplicador4x4_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multiplicador4x4_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="multiplicador4x4_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testbench_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testemult1x1_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testemult4x1_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testesoma1dig_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testesoma4dig_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testesoma4dig_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="testesoma4dig_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testesoma4dig_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testesomador4dig_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testesomador4dig_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="testesomador4dig_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testesomador4dig_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="top_adder.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="top_adder.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="top_adder.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="top_adder.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="top_adder.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="top_adder.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="top_adder.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="top_adder.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="top_adder.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="top_adder.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="top_adder.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="top_adder.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="top_adder.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="top_adder.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="top_adder.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="top_adder.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="top_adder_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="top_adder_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="top_adder_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="top_adder_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="top_adder_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="top_adder_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="top_adder_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="top_adder_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="top_adder_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1720199163" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1720199163">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1720807013" xil_pn:in_ck="-8712361537484977342" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1720807013">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="bcd_adder.vhd"/>
+      <outfile xil_pn:name="calculadora.vhd"/>
+      <outfile xil_pn:name="displaylcd.vhd"/>
+      <outfile xil_pn:name="fifo.vhd"/>
+      <outfile xil_pn:name="multiplicador1bit.vhd"/>
+      <outfile xil_pn:name="multiplicador4bit.vhd"/>
+      <outfile xil_pn:name="multiplicador4x4.vhd"/>
+      <outfile xil_pn:name="ps2_rx.vhd"/>
+      <outfile xil_pn:name="teclado.vhd"/>
+      <outfile xil_pn:name="teclado_para_ascii.vhd"/>
+      <outfile xil_pn:name="testemult1x1.vhd"/>
+      <outfile xil_pn:name="testemult4x1.vhd"/>
+      <outfile xil_pn:name="testesoma1dig.vhd"/>
+      <outfile xil_pn:name="testesomador4dig.vhd"/>
+      <outfile xil_pn:name="top_adder.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1720807235" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8927434660027467416" xil_pn:start_ts="1720807235">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1720807235" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2787542793044147552" xil_pn:start_ts="1720807235">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1720807013" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-2953192956431110933" xil_pn:start_ts="1720807013">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1720807013" xil_pn:in_ck="-8712361537484977342" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1720807013">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="bcd_adder.vhd"/>
+      <outfile xil_pn:name="calculadora.vhd"/>
+      <outfile xil_pn:name="displaylcd.vhd"/>
+      <outfile xil_pn:name="fifo.vhd"/>
+      <outfile xil_pn:name="multiplicador1bit.vhd"/>
+      <outfile xil_pn:name="multiplicador4bit.vhd"/>
+      <outfile xil_pn:name="multiplicador4x4.vhd"/>
+      <outfile xil_pn:name="ps2_rx.vhd"/>
+      <outfile xil_pn:name="teclado.vhd"/>
+      <outfile xil_pn:name="teclado_para_ascii.vhd"/>
+      <outfile xil_pn:name="testemult1x1.vhd"/>
+      <outfile xil_pn:name="testemult4x1.vhd"/>
+      <outfile xil_pn:name="testesoma1dig.vhd"/>
+      <outfile xil_pn:name="testesomador4dig.vhd"/>
+      <outfile xil_pn:name="top_adder.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1720807237" xil_pn:in_ck="-8712361537484977342" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2765934395278101774" xil_pn:start_ts="1720807235">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="testesomador4dig_beh.prj"/>
+      <outfile xil_pn:name="testesomador4dig_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1720807237" xil_pn:in_ck="-5959044081141062871" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4186253953480331163" xil_pn:start_ts="1720807237">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="testesomador4dig_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1720200581" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1720200581">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1720804101" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-1973771340005313082" xil_pn:start_ts="1720804101">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1720804101" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-2953192956431110933" xil_pn:start_ts="1720804101">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1720804101" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1720804101">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1720804101" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-5465300058510012002" xil_pn:start_ts="1720804101">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1720804101" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="4579864356909105523" xil_pn:start_ts="1720804101">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1720804101" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-8397463458194784459" xil_pn:start_ts="1720804101">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1720806247" xil_pn:in_ck="-2025607674996900280" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-7578646482536470894" xil_pn:start_ts="1720806236">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="calculadora.lso"/>
+      <outfile xil_pn:name="calculadora.ngc"/>
+      <outfile xil_pn:name="calculadora.ngr"/>
+      <outfile xil_pn:name="calculadora.prj"/>
+      <outfile xil_pn:name="calculadora.stx"/>
+      <outfile xil_pn:name="calculadora.syr"/>
+      <outfile xil_pn:name="calculadora.xst"/>
+      <outfile xil_pn:name="calculadora_xst.xrpt"/>
+      <outfile xil_pn:name="multiplicador4x4.ngr"/>
+      <outfile xil_pn:name="top_adder.ngr"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1720804106" xil_pn:in_ck="176569028253723405" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-2748024439300928493" xil_pn:start_ts="1720804106">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1720806254" xil_pn:in_ck="8901774608911652293" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-7173254344399396318" xil_pn:start_ts="1720806247">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="calculadora.bld"/>
+      <outfile xil_pn:name="calculadora.ngd"/>
+      <outfile xil_pn:name="calculadora_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1720806261" xil_pn:in_ck="-4226496342358591928" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-5706167834589782188" xil_pn:start_ts="1720806254">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="calculadora.pcf"/>
+      <outfile xil_pn:name="calculadora_map.map"/>
+      <outfile xil_pn:name="calculadora_map.mrp"/>
+      <outfile xil_pn:name="calculadora_map.ncd"/>
+      <outfile xil_pn:name="calculadora_map.ngm"/>
+      <outfile xil_pn:name="calculadora_map.xrpt"/>
+      <outfile xil_pn:name="calculadora_summary.xml"/>
+      <outfile xil_pn:name="calculadora_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1720806277" xil_pn:in_ck="1317488714334716819" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="6973808786348774276" xil_pn:start_ts="1720806261">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="calculadora.ncd"/>
+      <outfile xil_pn:name="calculadora.pad"/>
+      <outfile xil_pn:name="calculadora.par"/>
+      <outfile xil_pn:name="calculadora.ptwx"/>
+      <outfile xil_pn:name="calculadora.unroutes"/>
+      <outfile xil_pn:name="calculadora.xpi"/>
+      <outfile xil_pn:name="calculadora_pad.csv"/>
+      <outfile xil_pn:name="calculadora_pad.txt"/>
+      <outfile xil_pn:name="calculadora_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1720806277" xil_pn:in_ck="-5288673703384206660" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1720806273">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="calculadora.twr"/>
+      <outfile xil_pn:name="calculadora.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

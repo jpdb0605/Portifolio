@@ -1,0 +1,3 @@
+vhdl isim_temp "bcd_adder.vhd"
+vhdl isim_temp "top_adder.vhd"
+vhdl isim_temp "testesoma4dig.vhd"

@@ -1,0 +1,5 @@
+vhdl work "multiplicador1bit.vhd"
+vhdl work "bcd_adder.vhd"
+vhdl work "top_adder.vhd"
+vhdl work "multiplicador4bit.vhd"
+vhdl work "multiplicador4x4.vhd"

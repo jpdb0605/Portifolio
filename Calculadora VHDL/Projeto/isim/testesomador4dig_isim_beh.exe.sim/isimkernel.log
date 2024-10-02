@@ -1,0 +1,29 @@
+Command line:
+   testesomador4dig_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55561
+
+Fri Jul 12 15:00:39 2024
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 195.572 Meg
+
+ Total Signals          : 35
+ Total Nets             : 77
+ Total Signal Drivers   : 14
+ Total Blocks           : 10
+ Total Primitive Blocks : 8
+ Total Processes        : 11
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 579
+Total Line Count : 32
+
+ Total Simulation Time: 9.64 sec
+
+ Current Memory Usage: 273.17 Meg
+
+Fri Jul 12 15:01:28 2024
+

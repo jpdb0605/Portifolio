@@ -1,0 +1,668 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Reading design: calculadora.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "calculadora.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "calculadora"
+Output Format                      : NGC
+Target Device                      : xc3s700a-4-fg484
+
+---- Source Options
+Top Module Name                    : calculadora
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/sd/calculadora 05-07/bcd_adder.vhd" in Library work.
+Architecture arch of Entity bcd_adder is up to date.
+Compiling vhdl file "/home/sd/calculadora 05-07/multiplicador1bit.vhd" in Library work.
+Architecture behavioral of Entity multiplicador1bit is up to date.
+Compiling vhdl file "/home/sd/calculadora 05-07/multiplicador4bit.vhd" in Library work.
+Architecture behavioral of Entity multiplicador4bit is up to date.
+Compiling vhdl file "/home/sd/calculadora 05-07/top_adder.vhd" in Library work.
+Architecture behavioral of Entity top_adder is up to date.
+Compiling vhdl file "/home/sd/calculadora 05-07/ps2_rx.vhd" in Library work.
+Architecture arch of Entity ps2_rx is up to date.
+Compiling vhdl file "/home/sd/calculadora 05-07/fifo.vhd" in Library work.
+Architecture arch of Entity fifo is up to date.
+Compiling vhdl file "/home/sd/calculadora 05-07/teclado_para_ascii.vhd" in Library work.
+Architecture arch of Entity key2ascii is up to date.
+Compiling vhdl file "/home/sd/calculadora 05-07/teclado.vhd" in Library work.
+Architecture arch of Entity teclado is up to date.
+Compiling vhdl file "/home/sd/calculadora 05-07/multiplicador4x4.vhd" in Library work.
+Architecture behavioral of Entity multiplicador4x4 is up to date.
+Compiling vhdl file "/home/sd/calculadora 05-07/calculadora.vhd" in Library work.
+Entity <calculadora> compiled.
+Entity <calculadora> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <calculadora> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <teclado> in library <work> (architecture <arch>) with generics.
+	W_SIZE = 1
+
+Analyzing hierarchy for entity <top_adder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <multiplicador4x4> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ps2_rx> in library <work> (architecture <arch>).
+
+Analyzing hierarchy for entity <fifo> in library <work> (architecture <arch>) with generics.
+	B = 8
+	W = 1
+
+Analyzing hierarchy for entity <key2ascii> in library <work> (architecture <arch>).
+
+Analyzing hierarchy for entity <bcd_adder> in library <work> (architecture <arch>).
+
+Analyzing hierarchy for entity <multiplicador4bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <top_adder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <multiplicador1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <bcd_adder> in library <work> (architecture <arch>).
+
+Analyzing hierarchy for entity <bcd_adder> in library <work> (architecture <arch>).
+
+Analyzing hierarchy for entity <bcd_adder> in library <work> (architecture <arch>).
+
+Analyzing hierarchy for entity <bcd_adder> in library <work> (architecture <arch>).
+
+Analyzing hierarchy for entity <bcd_adder> in library <work> (architecture <arch>).
+
+Analyzing hierarchy for entity <bcd_adder> in library <work> (architecture <arch>).
+
+Analyzing hierarchy for entity <bcd_adder> in library <work> (architecture <arch>).
+
+Analyzing hierarchy for entity <bcd_adder> in library <work> (architecture <arch>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <calculadora> in library <work> (Architecture <behavioral>).
+Entity <calculadora> analyzed. Unit <calculadora> generated.
+
+Analyzing generic Entity <teclado> in library <work> (Architecture <arch>).
+	W_SIZE = 1
+WARNING:Xst:753 - "/home/sd/calculadora 05-07/teclado.vhd" line 27: Unconnected output port 'full' of component 'fifo'.
+Entity <teclado> analyzed. Unit <teclado> generated.
+
+Analyzing Entity <ps2_rx> in library <work> (Architecture <arch>).
+Entity <ps2_rx> analyzed. Unit <ps2_rx> generated.
+
+Analyzing generic Entity <fifo> in library <work> (Architecture <arch>).
+	B = 8
+	W = 1
+Entity <fifo> analyzed. Unit <fifo> generated.
+
+Analyzing Entity <key2ascii> in library <work> (Architecture <arch>).
+Entity <key2ascii> analyzed. Unit <key2ascii> generated.
+
+Analyzing Entity <top_adder> in library <work> (Architecture <behavioral>).
+Entity <top_adder> analyzed. Unit <top_adder> generated.
+
+Analyzing Entity <bcd_adder> in library <work> (Architecture <arch>).
+Entity <bcd_adder> analyzed. Unit <bcd_adder> generated.
+
+Analyzing Entity <multiplicador4x4> in library <work> (Architecture <behavioral>).
+Entity <multiplicador4x4> analyzed. Unit <multiplicador4x4> generated.
+
+Analyzing Entity <multiplicador4bit> in library <work> (Architecture <behavioral>).
+Entity <multiplicador4bit> analyzed. Unit <multiplicador4bit> generated.
+
+Analyzing Entity <multiplicador1bit> in library <work> (Architecture <behavioral>).
+Entity <multiplicador1bit> analyzed. Unit <multiplicador1bit> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <B<0>> in unit <calculadora> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <B<1>> in unit <calculadora> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <B<2>> in unit <calculadora> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <B<3>> in unit <calculadora> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <B<4>> in unit <calculadora> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <B<5>> in unit <calculadora> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <B<6>> in unit <calculadora> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <A<10>> in unit <calculadora> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <B<7>> in unit <calculadora> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <A<11>> in unit <calculadora> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <B<8>> in unit <calculadora> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <A<12>> in unit <calculadora> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <B<9>> in unit <calculadora> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <A<13>> in unit <calculadora> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <A<14>> in unit <calculadora> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <A<15>> in unit <calculadora> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <A<0>> in unit <calculadora> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <A<1>> in unit <calculadora> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <A<2>> in unit <calculadora> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <B<10>> in unit <calculadora> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <A<3>> in unit <calculadora> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <B<11>> in unit <calculadora> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <A<4>> in unit <calculadora> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <B<12>> in unit <calculadora> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <A<5>> in unit <calculadora> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <B<13>> in unit <calculadora> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <A<6>> in unit <calculadora> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <B<14>> in unit <calculadora> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <A<7>> in unit <calculadora> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <operacao> in unit <calculadora> has a constant value of 1101 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <B<15>> in unit <calculadora> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <A<8>> in unit <calculadora> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <A<9>> in unit <calculadora> has a constant value of 0 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <ps2_rx>.
+    Related source file is "/home/sd/calculadora 05-07/ps2_rx.vhd".
+WARNING:Xst:646 - Signal <b_reg<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 11-bit register for signal <b_reg>.
+    Found 1-bit register for signal <f_ps2c_reg>.
+    Found 8-bit register for signal <filter_reg>.
+    Found 4-bit register for signal <n_reg>.
+    Found 4-bit subtractor for signal <n_reg$addsub0000> created at line 82.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  24 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <ps2_rx> synthesized.
+
+
+Synthesizing Unit <fifo>.
+    Related source file is "/home/sd/calculadora 05-07/fifo.vhd".
+    Found 16-bit register for signal <array_reg>.
+    Found 1-bit register for signal <empty_reg>.
+    Found 1-bit 4-to-1 multiplexer for signal <empty_reg$mux0000> created at line 83.
+    Found 1-bit xor2 for signal <empty_reg$xor0000> created at line 89.
+    Found 1-bit register for signal <full_reg>.
+    Found 1-bit 4-to-1 multiplexer for signal <full_reg$mux0000> created at line 83.
+    Found 1-bit xor2 for signal <full_reg$xor0000> created at line 97.
+    Found 1-bit register for signal <r_ptr_reg<0>>.
+    Found 1-bit 4-to-1 multiplexer for signal <r_ptr_reg_0$mux0000> created at line 83.
+    Found 1-bit adder for signal <r_ptr_succ<0>>.
+    Found 1-bit register for signal <w_ptr_reg<0>>.
+    Found 1-bit 4-to-1 multiplexer for signal <w_ptr_reg_0$mux0000> created at line 83.
+    Found 1-bit adder for signal <w_ptr_succ<0>>.
+    Summary:
+	inferred  20 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   4 Multiplexer(s).
+Unit <fifo> synthesized.
+
+
+Synthesizing Unit <key2ascii>.
+    Related source file is "/home/sd/calculadora 05-07/teclado_para_ascii.vhd".
+Unit <key2ascii> synthesized.
+
+
+Synthesizing Unit <bcd_adder>.
+    Related source file is "/home/sd/calculadora 05-07/bcd_adder.vhd".
+    Found 4-bit adder for signal <soma$addsub0000> created at line 22.
+    Found 5-bit comparator greater for signal <soma$cmp_gt0000> created at line 20.
+    Found 5-bit adder for signal <soma_temporaria>.
+    Found 5-bit adder for signal <soma_temporaria$addsub0000> created at line 17.
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <bcd_adder> synthesized.
+
+
+Synthesizing Unit <multiplicador1bit>.
+    Related source file is "/home/sd/calculadora 05-07/multiplicador1bit.vhd".
+    Found 8-bit comparator lessequal for signal <dezena$cmp_le0000> created at line 17.
+    Found 8-bit comparator lessequal for signal <dezena$cmp_le0001> created at line 19.
+    Found 8-bit comparator lessequal for signal <dezena$cmp_le0002> created at line 23.
+    Found 8-bit comparator lessequal for signal <dezena$cmp_le0003> created at line 27.
+    Found 8-bit comparator lessequal for signal <dezena$cmp_le0004> created at line 31.
+    Found 8-bit comparator lessequal for signal <dezena$cmp_le0005> created at line 35.
+    Found 8-bit comparator lessequal for signal <dezena$cmp_le0006> created at line 39.
+    Found 8-bit comparator lessequal for signal <dezena$cmp_le0007> created at line 43.
+    Found 4x4-bit multiplier for signal <produto>.
+    Found 4-bit adder for signal <unidade$share0000> created at line 19.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Multiplier(s).
+	inferred   8 Comparator(s).
+Unit <multiplicador1bit> synthesized.
+
+
+Synthesizing Unit <teclado>.
+    Related source file is "/home/sd/calculadora 05-07/teclado.vhd".
+WARNING:Xst:1780 - Signal <w_data> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit register for signal <state_reg<0>>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <teclado> synthesized.
+
+
+Synthesizing Unit <top_adder>.
+    Related source file is "/home/sd/calculadora 05-07/top_adder.vhd".
+Unit <top_adder> synthesized.
+
+
+Synthesizing Unit <multiplicador4bit>.
+    Related source file is "/home/sd/calculadora 05-07/multiplicador4bit.vhd".
+WARNING:Xst:646 - Signal <carry<3>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <multiplicador4bit> synthesized.
+
+
+Synthesizing Unit <multiplicador4x4>.
+    Related source file is "/home/sd/calculadora 05-07/multiplicador4x4.vhd".
+WARNING:Xst:646 - Signal <soma_final<19:16>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <s3> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <multiplicador4x4> synthesized.
+
+
+Synthesizing Unit <calculadora>.
+    Related source file is "/home/sd/calculadora 05-07/calculadora.vhd".
+WARNING:Xst:646 - Signal <teclado_buf> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <exibir> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <proximo_estado> of Case statement line 59 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <proximo_estado> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+    Using one-hot encoding for signal <proximo_estado>.
+    Found 32-bit register for signal <resultado>.
+    Found 10-bit register for signal <proximo_estado>.
+    Summary:
+	inferred  42 D-type flip-flop(s).
+Unit <calculadora> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 16
+ 4x4-bit multiplier                                    : 16
+# Adders/Subtractors                                   : 127
+ 1-bit adder                                           : 2
+ 4-bit adder                                           : 52
+ 4-bit subtractor                                      : 1
+ 5-bit adder                                           : 72
+# Registers                                            : 13
+ 1-bit register                                        : 6
+ 10-bit register                                       : 1
+ 11-bit register                                       : 1
+ 32-bit register                                       : 1
+ 4-bit register                                        : 1
+ 8-bit register                                        : 3
+# Comparators                                          : 164
+ 5-bit comparator greater                              : 36
+ 8-bit comparator lessequal                            : 128
+# Multiplexers                                         : 4
+ 1-bit 4-to-1 multiplexer                              : 4
+# Xors                                                 : 2
+ 1-bit xor2                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <digitar/ps2_rx_unit/state_reg/FSM> on signal <state_reg[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ idle  | 00
+ dps   | 01
+ load  | 11
+-------------------
+WARNING:Xst:1290 - Hierarchical block <digitar> is unconnected in block <calculadora>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <somar> is unconnected in block <calculadora>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <multiplicar> is unconnected in block <calculadora>.
+   It will be removed from the design.
+WARNING:Xst:1710 - FF/Latch <resultado_31> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_30> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_29> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_28> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_27> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_26> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_25> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_24> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_23> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_22> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_21> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_20> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_19> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_18> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_17> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_16> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_15> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_14> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_13> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_12> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_11> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_10> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_9> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_8> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_7> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_6> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_5> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_4> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_3> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_2> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_1> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <resultado_0> (without init value) has a constant value of 0 in block <calculadora>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2404 -  FFs/Latches <resultado<31:0>> (without init value) have a constant value of 0 in block <calculadora>.
+WARNING:Xst:2677 - Node <b_reg_0> of sequential type is unconnected in block <ps2_rx>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Multipliers                                          : 16
+ 4x4-bit multiplier                                    : 16
+# Adders/Subtractors                                   : 91
+ 1-bit adder                                           : 2
+ 4-bit adder                                           : 52
+ 4-bit subtractor                                      : 1
+ 5-bit adder carry in                                  : 36
+# Registers                                            : 44
+ Flip-Flops                                            : 44
+# Comparators                                          : 164
+ 5-bit comparator greater                              : 36
+ 8-bit comparator lessequal                            : 128
+# Multiplexers                                         : 4
+ 1-bit 4-to-1 multiplexer                              : 4
+# Xors                                                 : 2
+ 1-bit xor2                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1989 - Unit <calculadora>: instances <multiplicar/produto3/produto3>, <multiplicar/produto3/produto2> of unit <multiplicador1bit> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <calculadora>: instances <multiplicar/produto3/produto3>, <multiplicar/produto3/produto1> of unit <multiplicador1bit> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <calculadora>: instances <multiplicar/produto3/produto3>, <multiplicar/produto3/produto0> of unit <multiplicador1bit> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <calculadora>: instances <multiplicar/produto3/produto3>, <multiplicar/produto2/produto3> of unit <multiplicador1bit> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <calculadora>: instances <multiplicar/produto3/produto3>, <multiplicar/produto2/produto2> of unit <multiplicador1bit> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <calculadora>: instances <multiplicar/produto3/produto3>, <multiplicar/produto2/produto1> of unit <multiplicador1bit> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <calculadora>: instances <multiplicar/produto3/produto3>, <multiplicar/produto2/produto0> of unit <multiplicador1bit> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <calculadora>: instances <multiplicar/produto3/produto3>, <multiplicar/produto1/produto3> of unit <multiplicador1bit> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <calculadora>: instances <multiplicar/produto3/produto3>, <multiplicar/produto1/produto2> of unit <multiplicador1bit> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <calculadora>: instances <multiplicar/produto3/produto3>, <multiplicar/produto1/produto1> of unit <multiplicador1bit> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <calculadora>: instances <multiplicar/produto3/produto3>, <multiplicar/produto1/produto0> of unit <multiplicador1bit> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <calculadora>: instances <multiplicar/produto3/produto3>, <multiplicar/produto0/produto3> of unit <multiplicador1bit> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <calculadora>: instances <multiplicar/produto3/produto3>, <multiplicar/produto0/produto2> of unit <multiplicador1bit> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <calculadora>: instances <multiplicar/produto3/produto3>, <multiplicar/produto0/produto1> of unit <multiplicador1bit> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <calculadora>: instances <multiplicar/produto3/produto3>, <multiplicar/produto0/produto0> of unit <multiplicador1bit> are equivalent, second instance is removed
+
+Optimizing unit <calculadora> ...
+
+Optimizing unit <ps2_rx> ...
+
+Optimizing unit <fifo> ...
+
+Optimizing unit <multiplicador1bit> ...
+WARNING:Xst:2677 - Node <digitar/state_reg_0> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/ps2_rx_unit/state_reg_FSM_FFd2> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/ps2_rx_unit/state_reg_FSM_FFd1> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/ps2_rx_unit/b_reg_10> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/ps2_rx_unit/b_reg_9> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/ps2_rx_unit/b_reg_8> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/ps2_rx_unit/b_reg_7> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/ps2_rx_unit/b_reg_6> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/ps2_rx_unit/b_reg_5> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/ps2_rx_unit/b_reg_4> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/ps2_rx_unit/b_reg_3> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/ps2_rx_unit/b_reg_2> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/ps2_rx_unit/b_reg_1> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/ps2_rx_unit/f_ps2c_reg> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/ps2_rx_unit/filter_reg_7> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/ps2_rx_unit/filter_reg_6> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/ps2_rx_unit/filter_reg_5> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/ps2_rx_unit/filter_reg_4> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/ps2_rx_unit/filter_reg_3> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/ps2_rx_unit/filter_reg_2> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/ps2_rx_unit/filter_reg_1> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/ps2_rx_unit/filter_reg_0> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/ps2_rx_unit/n_reg_3> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/ps2_rx_unit/n_reg_2> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/ps2_rx_unit/n_reg_1> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/ps2_rx_unit/n_reg_0> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/fifo_key_unit/r_ptr_reg_0> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/fifo_key_unit/w_ptr_reg_0> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/fifo_key_unit/full_reg> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/fifo_key_unit/empty_reg> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/fifo_key_unit/array_reg_1_7> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/fifo_key_unit/array_reg_1_6> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/fifo_key_unit/array_reg_1_5> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/fifo_key_unit/array_reg_1_4> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/fifo_key_unit/array_reg_1_3> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/fifo_key_unit/array_reg_1_2> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/fifo_key_unit/array_reg_1_1> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/fifo_key_unit/array_reg_1_0> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/fifo_key_unit/array_reg_0_7> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/fifo_key_unit/array_reg_0_6> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/fifo_key_unit/array_reg_0_5> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/fifo_key_unit/array_reg_0_4> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/fifo_key_unit/array_reg_0_3> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/fifo_key_unit/array_reg_0_2> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/fifo_key_unit/array_reg_0_1> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <digitar/fifo_key_unit/array_reg_0_0> of sequential type is unconnected in block <calculadora>.
+WARNING:Xst:2677 - Node <multiplicar/produto3/produto3/Mmult_produto> of sequential type is unconnected in block <calculadora>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block calculadora, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : calculadora.ngr
+Top Level Output File Name         : calculadora
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 37
+
+Cell Usage :
+# BELS                             : 1
+#      GND                         : 1
+# IO Buffers                       : 32
+#      OBUF                        : 32
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s700afg484-4 
+
+ Number of Slices:                        0  out of   5888     0%  
+ Number of IOs:                          37
+ Number of bonded IOBs:                  32  out of    372     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.82 secs
+ 
+--> 
+
+
+Total memory usage is 626692 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  107 (   0 filtered)
+Number of infos    :   35 (   0 filtered)
+

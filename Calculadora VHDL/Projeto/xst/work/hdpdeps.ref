@@ -1,0 +1,67 @@
+V3 41
+FL "/home/sd/calculadora 05-07/bcd_adder.vhd" 2024/06/28.15:13:44 P.20131013
+EN work/bcd_adder 1720806241 FL "/home/sd/calculadora 05-07/bcd_adder.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/bcd_adder/arch 1720806242 \
+      FL "/home/sd/calculadora 05-07/bcd_adder.vhd" EN work/bcd_adder 1720806241
+FL "/home/sd/calculadora 05-07/calculadora.vhd" 2024/07/12.14:43:56 P.20131013
+EN work/calculadora 1720806259 FL "/home/sd/calculadora 05-07/calculadora.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/calculadora/Behavioral 1720806260 \
+      FL "/home/sd/calculadora 05-07/calculadora.vhd" EN work/calculadora 1720806259 \
+      CP teclado CP top_adder CP multiplicador4x4
+FL "/home/sd/calculadora 05-07/fifo.vhd" 2024/06/21.14:31:26 P.20131013
+EN work/fifo 1720806251 FL "/home/sd/calculadora 05-07/fifo.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/fifo/arch 1720806252 \
+      FL "/home/sd/calculadora 05-07/fifo.vhd" EN work/fifo 1720806251
+FL "/home/sd/calculadora 05-07/multiplicador1bit.vhd" 2024/07/05.15:16:02 P.20131013
+EN work/multiplicador1bit 1720806243 \
+      FL "/home/sd/calculadora 05-07/multiplicador1bit.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/multiplicador1bit/Behavioral 1720806244 \
+      FL "/home/sd/calculadora 05-07/multiplicador1bit.vhd" \
+      EN work/multiplicador1bit 1720806243
+FL "/home/sd/calculadora 05-07/multiplicador4bit.vhd" 2024/07/05.15:05:50 P.20131013
+EN work/multiplicador4bit 1720806245 \
+      FL "/home/sd/calculadora 05-07/multiplicador4bit.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/multiplicador4bit/Behavioral 1720806246 \
+      FL "/home/sd/calculadora 05-07/multiplicador4bit.vhd" \
+      EN work/multiplicador4bit 1720806245 CP multiplicador1bit CP bcd_adder
+FL "/home/sd/calculadora 05-07/multiplicador4x4.vhd" 2024/07/05.15:04:34 P.20131013
+EN work/multiplicador4x4 1720806257 \
+      FL "/home/sd/calculadora 05-07/multiplicador4x4.vhd" PB ieee/std_logic_1164 1381692176
+AR work/multiplicador4x4/Behavioral 1720806258 \
+      FL "/home/sd/calculadora 05-07/multiplicador4x4.vhd" \
+      EN work/multiplicador4x4 1720806257 CP multiplicador4bit CP top_adder
+FL "/home/sd/calculadora 05-07/ps2_rx.vhd" 2024/06/21.14:31:28 P.20131013
+EN work/ps2_rx 1720806249 FL "/home/sd/calculadora 05-07/ps2_rx.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/ps2_rx/arch 1720806250 \
+      FL "/home/sd/calculadora 05-07/ps2_rx.vhd" EN work/ps2_rx 1720806249
+FL "/home/sd/calculadora 05-07/teclado.vhd" 2024/07/12.14:16:46 P.20131013
+EN work/teclado 1720806255 FL "/home/sd/calculadora 05-07/teclado.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/teclado/arch 1720806256 \
+      FL "/home/sd/calculadora 05-07/teclado.vhd" EN work/teclado 1720806255 \
+      AR work/ps2_rx/arch 1720806250 AR work/fifo/arch 1720806252 \
+      AR work/key2ascii/arch 1720806254
+FL "/home/sd/calculadora 05-07/teclado_para_ascii.vhd" 2024/06/21.14:31:28 P.20131013
+EN work/key2ascii 1720806253 \
+      FL "/home/sd/calculadora 05-07/teclado_para_ascii.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/key2ascii/arch 1720806254 \
+      FL "/home/sd/calculadora 05-07/teclado_para_ascii.vhd" EN work/key2ascii 1720806253
+FL "/home/sd/calculadora 05-07/top_adder.vhd" 2024/07/05.14:29:40 P.20131013
+EN work/top_adder 1720806247 FL "/home/sd/calculadora 05-07/top_adder.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/top_adder/Behavioral 1720806248 \
+      FL "/home/sd/calculadora 05-07/top_adder.vhd" EN work/top_adder 1720806247 \
+      CP bcd_adder
+FL "/home/sd/calculadora 28-07/bcd_adder.vhd" 2024/06/28.15:13:44 P.20131013
+FL "/home/sd/calculadora 28-07/multiplicador1bit.vhd" 2024/07/05.15:16:02 P.20131013
+FL "/home/sd/calculadora 28-07/multiplicador4bit.vhd" 2024/07/05.15:05:50 P.20131013
+FL "/home/sd/calculadora 28-07/multiplicador4x4.vhd" 2024/07/05.15:04:35 P.20131013
+FL "/home/sd/calculadora 28-07/top_adder.vhd" 2024/07/05.14:29:41 P.20131013

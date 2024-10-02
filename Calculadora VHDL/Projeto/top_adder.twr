@@ -1,0 +1,387 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 4 -n
+3 -fastpaths -xml top_adder.twx top_adder.ncd -o top_adder.twr top_adder.pcf
+
+Design file:              top_adder.ncd
+Physical constraint file: top_adder.pcf
+Device,package,speed:     xc3s700a,fg484,-4 (PRODUCTION 1.42 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |soma<0>        |    7.197|
+A<0>           |soma<1>        |    9.996|
+A<0>           |soma<2>        |   10.870|
+A<0>           |soma<3>        |    8.947|
+A<0>           |soma<4>        |   12.104|
+A<0>           |soma<5>        |   13.935|
+A<0>           |soma<6>        |   13.949|
+A<0>           |soma<7>        |   13.185|
+A<0>           |soma<8>        |   15.453|
+A<0>           |soma<9>        |   17.126|
+A<0>           |soma<10>       |   17.065|
+A<0>           |soma<11>       |   17.459|
+A<0>           |soma<12>       |   19.159|
+A<0>           |soma<13>       |   21.145|
+A<0>           |soma<14>       |   21.278|
+A<0>           |soma<15>       |   21.234|
+A<0>           |soma<16>       |   21.161|
+A<1>           |soma<1>        |    9.976|
+A<1>           |soma<2>        |   10.850|
+A<1>           |soma<3>        |    8.927|
+A<1>           |soma<4>        |   12.084|
+A<1>           |soma<5>        |   13.915|
+A<1>           |soma<6>        |   13.929|
+A<1>           |soma<7>        |   13.165|
+A<1>           |soma<8>        |   15.433|
+A<1>           |soma<9>        |   17.106|
+A<1>           |soma<10>       |   17.045|
+A<1>           |soma<11>       |   17.439|
+A<1>           |soma<12>       |   19.139|
+A<1>           |soma<13>       |   21.125|
+A<1>           |soma<14>       |   21.258|
+A<1>           |soma<15>       |   21.214|
+A<1>           |soma<16>       |   21.141|
+A<2>           |soma<1>        |    9.634|
+A<2>           |soma<2>        |   10.508|
+A<2>           |soma<3>        |    8.474|
+A<2>           |soma<4>        |   11.742|
+A<2>           |soma<5>        |   13.573|
+A<2>           |soma<6>        |   13.587|
+A<2>           |soma<7>        |   12.823|
+A<2>           |soma<8>        |   15.091|
+A<2>           |soma<9>        |   16.764|
+A<2>           |soma<10>       |   16.703|
+A<2>           |soma<11>       |   17.097|
+A<2>           |soma<12>       |   18.797|
+A<2>           |soma<13>       |   20.783|
+A<2>           |soma<14>       |   20.916|
+A<2>           |soma<15>       |   20.872|
+A<2>           |soma<16>       |   20.799|
+A<3>           |soma<1>        |    8.207|
+A<3>           |soma<2>        |    9.081|
+A<3>           |soma<3>        |    7.156|
+A<3>           |soma<4>        |   10.315|
+A<3>           |soma<5>        |   12.146|
+A<3>           |soma<6>        |   12.160|
+A<3>           |soma<7>        |   11.396|
+A<3>           |soma<8>        |   13.664|
+A<3>           |soma<9>        |   15.337|
+A<3>           |soma<10>       |   15.276|
+A<3>           |soma<11>       |   15.670|
+A<3>           |soma<12>       |   17.370|
+A<3>           |soma<13>       |   19.356|
+A<3>           |soma<14>       |   19.489|
+A<3>           |soma<15>       |   19.445|
+A<3>           |soma<16>       |   19.372|
+A<4>           |soma<4>        |    8.803|
+A<4>           |soma<5>        |   11.234|
+A<4>           |soma<6>        |   11.248|
+A<4>           |soma<7>        |   10.484|
+A<4>           |soma<8>        |   12.752|
+A<4>           |soma<9>        |   14.425|
+A<4>           |soma<10>       |   14.364|
+A<4>           |soma<11>       |   14.758|
+A<4>           |soma<12>       |   16.458|
+A<4>           |soma<13>       |   18.444|
+A<4>           |soma<14>       |   18.577|
+A<4>           |soma<15>       |   18.533|
+A<4>           |soma<16>       |   18.460|
+A<5>           |soma<5>        |   10.115|
+A<5>           |soma<6>        |   10.129|
+A<5>           |soma<7>        |    9.365|
+A<5>           |soma<8>        |   11.633|
+A<5>           |soma<9>        |   13.306|
+A<5>           |soma<10>       |   13.245|
+A<5>           |soma<11>       |   13.639|
+A<5>           |soma<12>       |   15.339|
+A<5>           |soma<13>       |   17.325|
+A<5>           |soma<14>       |   17.458|
+A<5>           |soma<15>       |   17.414|
+A<5>           |soma<16>       |   17.341|
+A<6>           |soma<5>        |   10.459|
+A<6>           |soma<6>        |   10.473|
+A<6>           |soma<7>        |    9.709|
+A<6>           |soma<8>        |   11.977|
+A<6>           |soma<9>        |   13.650|
+A<6>           |soma<10>       |   13.589|
+A<6>           |soma<11>       |   13.983|
+A<6>           |soma<12>       |   15.683|
+A<6>           |soma<13>       |   17.669|
+A<6>           |soma<14>       |   17.802|
+A<6>           |soma<15>       |   17.758|
+A<6>           |soma<16>       |   17.685|
+A<7>           |soma<5>        |    9.700|
+A<7>           |soma<6>        |    9.714|
+A<7>           |soma<7>        |    8.965|
+A<7>           |soma<8>        |   11.218|
+A<7>           |soma<9>        |   12.891|
+A<7>           |soma<10>       |   12.830|
+A<7>           |soma<11>       |   13.224|
+A<7>           |soma<12>       |   14.924|
+A<7>           |soma<13>       |   16.910|
+A<7>           |soma<14>       |   17.043|
+A<7>           |soma<15>       |   16.999|
+A<7>           |soma<16>       |   16.926|
+A<8>           |soma<8>        |    7.360|
+A<8>           |soma<9>        |    9.633|
+A<8>           |soma<10>       |    9.572|
+A<8>           |soma<11>       |    9.840|
+A<8>           |soma<12>       |   11.540|
+A<8>           |soma<13>       |   13.526|
+A<8>           |soma<14>       |   13.659|
+A<8>           |soma<15>       |   13.615|
+A<8>           |soma<16>       |   13.542|
+A<9>           |soma<9>        |    9.509|
+A<9>           |soma<10>       |    9.448|
+A<9>           |soma<11>       |    9.478|
+A<9>           |soma<12>       |   11.141|
+A<9>           |soma<13>       |   13.127|
+A<9>           |soma<14>       |   13.260|
+A<9>           |soma<15>       |   13.216|
+A<9>           |soma<16>       |   13.143|
+A<10>          |soma<9>        |    9.954|
+A<10>          |soma<10>       |    9.893|
+A<10>          |soma<11>       |    9.923|
+A<10>          |soma<12>       |   11.586|
+A<10>          |soma<13>       |   13.572|
+A<10>          |soma<14>       |   13.705|
+A<10>          |soma<15>       |   13.661|
+A<10>          |soma<16>       |   13.588|
+A<11>          |soma<9>        |    9.022|
+A<11>          |soma<10>       |    8.961|
+A<11>          |soma<11>       |    9.267|
+A<11>          |soma<12>       |   10.931|
+A<11>          |soma<13>       |   12.917|
+A<11>          |soma<14>       |   13.050|
+A<11>          |soma<15>       |   13.006|
+A<11>          |soma<16>       |   12.933|
+A<12>          |soma<12>       |    7.758|
+A<12>          |soma<13>       |   10.344|
+A<12>          |soma<14>       |   10.477|
+A<12>          |soma<15>       |   10.433|
+A<12>          |soma<16>       |   10.360|
+A<13>          |soma<13>       |    9.888|
+A<13>          |soma<14>       |   10.021|
+A<13>          |soma<15>       |    9.977|
+A<13>          |soma<16>       |    9.904|
+A<14>          |soma<13>       |   10.399|
+A<14>          |soma<14>       |   10.532|
+A<14>          |soma<15>       |   10.488|
+A<14>          |soma<16>       |   10.415|
+A<15>          |soma<13>       |    9.946|
+A<15>          |soma<14>       |   10.046|
+A<15>          |soma<15>       |   10.002|
+A<15>          |soma<16>       |    9.971|
+B<0>           |soma<0>        |    7.024|
+B<0>           |soma<1>        |    9.411|
+B<0>           |soma<2>        |   10.285|
+B<0>           |soma<3>        |    8.362|
+B<0>           |soma<4>        |   11.519|
+B<0>           |soma<5>        |   13.350|
+B<0>           |soma<6>        |   13.364|
+B<0>           |soma<7>        |   12.600|
+B<0>           |soma<8>        |   14.868|
+B<0>           |soma<9>        |   16.541|
+B<0>           |soma<10>       |   16.480|
+B<0>           |soma<11>       |   16.874|
+B<0>           |soma<12>       |   18.574|
+B<0>           |soma<13>       |   20.560|
+B<0>           |soma<14>       |   20.693|
+B<0>           |soma<15>       |   20.649|
+B<0>           |soma<16>       |   20.576|
+B<1>           |soma<1>        |    9.715|
+B<1>           |soma<2>        |   10.589|
+B<1>           |soma<3>        |    8.666|
+B<1>           |soma<4>        |   11.823|
+B<1>           |soma<5>        |   13.654|
+B<1>           |soma<6>        |   13.668|
+B<1>           |soma<7>        |   12.904|
+B<1>           |soma<8>        |   15.172|
+B<1>           |soma<9>        |   16.845|
+B<1>           |soma<10>       |   16.784|
+B<1>           |soma<11>       |   17.178|
+B<1>           |soma<12>       |   18.878|
+B<1>           |soma<13>       |   20.864|
+B<1>           |soma<14>       |   20.997|
+B<1>           |soma<15>       |   20.953|
+B<1>           |soma<16>       |   20.880|
+B<2>           |soma<1>        |    9.086|
+B<2>           |soma<2>        |    9.960|
+B<2>           |soma<3>        |    8.037|
+B<2>           |soma<4>        |   11.194|
+B<2>           |soma<5>        |   13.025|
+B<2>           |soma<6>        |   13.039|
+B<2>           |soma<7>        |   12.275|
+B<2>           |soma<8>        |   14.543|
+B<2>           |soma<9>        |   16.216|
+B<2>           |soma<10>       |   16.155|
+B<2>           |soma<11>       |   16.549|
+B<2>           |soma<12>       |   18.249|
+B<2>           |soma<13>       |   20.235|
+B<2>           |soma<14>       |   20.368|
+B<2>           |soma<15>       |   20.324|
+B<2>           |soma<16>       |   20.251|
+B<3>           |soma<1>        |    7.724|
+B<3>           |soma<2>        |    8.598|
+B<3>           |soma<3>        |    6.491|
+B<3>           |soma<4>        |    9.832|
+B<3>           |soma<5>        |   11.663|
+B<3>           |soma<6>        |   11.677|
+B<3>           |soma<7>        |   10.913|
+B<3>           |soma<8>        |   13.181|
+B<3>           |soma<9>        |   14.854|
+B<3>           |soma<10>       |   14.793|
+B<3>           |soma<11>       |   15.187|
+B<3>           |soma<12>       |   16.887|
+B<3>           |soma<13>       |   18.873|
+B<3>           |soma<14>       |   19.006|
+B<3>           |soma<15>       |   18.962|
+B<3>           |soma<16>       |   18.889|
+B<4>           |soma<4>        |    7.358|
+B<4>           |soma<5>        |    9.789|
+B<4>           |soma<6>        |    9.803|
+B<4>           |soma<7>        |    9.039|
+B<4>           |soma<8>        |   11.307|
+B<4>           |soma<9>        |   12.980|
+B<4>           |soma<10>       |   12.919|
+B<4>           |soma<11>       |   13.313|
+B<4>           |soma<12>       |   15.013|
+B<4>           |soma<13>       |   16.999|
+B<4>           |soma<14>       |   17.132|
+B<4>           |soma<15>       |   17.088|
+B<4>           |soma<16>       |   17.015|
+B<5>           |soma<5>        |    9.984|
+B<5>           |soma<6>        |    9.998|
+B<5>           |soma<7>        |    9.234|
+B<5>           |soma<8>        |   11.502|
+B<5>           |soma<9>        |   13.175|
+B<5>           |soma<10>       |   13.114|
+B<5>           |soma<11>       |   13.508|
+B<5>           |soma<12>       |   15.208|
+B<5>           |soma<13>       |   17.194|
+B<5>           |soma<14>       |   17.327|
+B<5>           |soma<15>       |   17.283|
+B<5>           |soma<16>       |   17.210|
+B<6>           |soma<5>        |    9.450|
+B<6>           |soma<6>        |    9.464|
+B<6>           |soma<7>        |    8.700|
+B<6>           |soma<8>        |   10.968|
+B<6>           |soma<9>        |   12.641|
+B<6>           |soma<10>       |   12.580|
+B<6>           |soma<11>       |   12.974|
+B<6>           |soma<12>       |   14.674|
+B<6>           |soma<13>       |   16.660|
+B<6>           |soma<14>       |   16.793|
+B<6>           |soma<15>       |   16.749|
+B<6>           |soma<16>       |   16.676|
+B<7>           |soma<5>        |    9.290|
+B<7>           |soma<6>        |    9.304|
+B<7>           |soma<7>        |    8.555|
+B<7>           |soma<8>        |   10.808|
+B<7>           |soma<9>        |   12.481|
+B<7>           |soma<10>       |   12.420|
+B<7>           |soma<11>       |   12.814|
+B<7>           |soma<12>       |   14.514|
+B<7>           |soma<13>       |   16.500|
+B<7>           |soma<14>       |   16.633|
+B<7>           |soma<15>       |   16.589|
+B<7>           |soma<16>       |   16.516|
+B<8>           |soma<8>        |    7.085|
+B<8>           |soma<9>        |    9.358|
+B<8>           |soma<10>       |    9.297|
+B<8>           |soma<11>       |    9.565|
+B<8>           |soma<12>       |   11.265|
+B<8>           |soma<13>       |   13.251|
+B<8>           |soma<14>       |   13.384|
+B<8>           |soma<15>       |   13.340|
+B<8>           |soma<16>       |   13.267|
+B<9>           |soma<9>        |    9.515|
+B<9>           |soma<10>       |    9.454|
+B<9>           |soma<11>       |    9.484|
+B<9>           |soma<12>       |   11.147|
+B<9>           |soma<13>       |   13.133|
+B<9>           |soma<14>       |   13.266|
+B<9>           |soma<15>       |   13.222|
+B<9>           |soma<16>       |   13.149|
+B<10>          |soma<9>        |    9.355|
+B<10>          |soma<10>       |    9.294|
+B<10>          |soma<11>       |    9.324|
+B<10>          |soma<12>       |   10.987|
+B<10>          |soma<13>       |   12.973|
+B<10>          |soma<14>       |   13.106|
+B<10>          |soma<15>       |   13.062|
+B<10>          |soma<16>       |   12.989|
+B<11>          |soma<9>        |    8.582|
+B<11>          |soma<10>       |    8.521|
+B<11>          |soma<11>       |    8.827|
+B<11>          |soma<12>       |   10.491|
+B<11>          |soma<13>       |   12.477|
+B<11>          |soma<14>       |   12.610|
+B<11>          |soma<15>       |   12.566|
+B<11>          |soma<16>       |   12.493|
+B<12>          |soma<12>       |    7.017|
+B<12>          |soma<13>       |    9.603|
+B<12>          |soma<14>       |    9.736|
+B<12>          |soma<15>       |    9.692|
+B<12>          |soma<16>       |    9.619|
+B<13>          |soma<13>       |    9.709|
+B<13>          |soma<14>       |    9.842|
+B<13>          |soma<15>       |    9.798|
+B<13>          |soma<16>       |    9.725|
+B<14>          |soma<13>       |    9.683|
+B<14>          |soma<14>       |    9.816|
+B<14>          |soma<15>       |    9.772|
+B<14>          |soma<16>       |    9.699|
+B<15>          |soma<13>       |    9.171|
+B<15>          |soma<14>       |    9.271|
+B<15>          |soma<15>       |    9.227|
+B<15>          |soma<16>       |    9.196|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Jul  5 14:30:57 2024 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 376 MB
+
+
+

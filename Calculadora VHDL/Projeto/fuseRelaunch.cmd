@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/sd/calculadora 05-07/testesomador4dig_isim_beh.exe" -prj "/home/sd/calculadora 05-07/testesomador4dig_beh.prj" "work.testesomador4dig" 

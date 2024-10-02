@@ -1,0 +1,35 @@
+xst -intstyle ise -ifn "/home/sd/calculadora 28-07/multiplicador4x4.xst" -ofn "/home/sd/calculadora 28-07/multiplicador4x4.syr" 
+xst -intstyle ise -ifn "/home/sd/calculadora 28-07/multiplicador4x4.xst" -ofn "/home/sd/calculadora 28-07/multiplicador4x4.syr" 
+xst -intstyle ise -ifn "/home/sd/calculadora 28-07/multiplicador4x4.xst" -ofn "/home/sd/calculadora 28-07/multiplicador4x4.syr" 
+xst -intstyle ise -ifn "/home/sd/calculadora 28-07/multiplicador4x4.xst" -ofn "/home/sd/calculadora 28-07/multiplicador4x4.syr" 
+xst -intstyle ise -ifn "/home/sd/calculadora 28-07/multiplicador4x4.xst" -ofn "/home/sd/calculadora 28-07/multiplicador4x4.syr" 
+xst -intstyle ise -ifn "/home/sd/calculadora 28-07/multiplicador4x4.xst" -ofn "/home/sd/calculadora 28-07/multiplicador4x4.syr" 
+xst -intstyle ise -ifn "/home/sd/calculadora 28-07/multiplicador4x4.xst" -ofn "/home/sd/calculadora 28-07/multiplicador4x4.syr" 
+xst -intstyle ise -ifn "/home/sd/calculadora 28-07/multiplicador4x4.xst" -ofn "/home/sd/calculadora 28-07/multiplicador4x4.syr" 
+xst -intstyle ise -ifn "/home/sd/calculadora 28-07/multiplicador4x4.xst" -ofn "/home/sd/calculadora 28-07/multiplicador4x4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 "multiplicador4x4.ngc" multiplicador4x4.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 "multiplicador4x4.ngc" multiplicador4x4.ngd  
+xst -intstyle ise -ifn "/home/sd/calculadora 28-07/multiplicador4x4.xst" -ofn "/home/sd/calculadora 28-07/multiplicador4x4.syr" 
+xst -intstyle ise -ifn "/home/sd/calculadora 28-07/multiplicador4x4.xst" -ofn "/home/sd/calculadora 28-07/multiplicador4x4.syr" 
+xst -intstyle ise -ifn "/home/sd/calculadora 28-07/multiplicador4x4.xst" -ofn "/home/sd/calculadora 28-07/multiplicador4x4.syr" 
+xst -intstyle ise -ifn "/home/sd/calculadora 28-07/multiplicador4x4.xst" -ofn "/home/sd/calculadora 28-07/multiplicador4x4.syr" 
+xst -intstyle ise -ifn "/home/sd/calculadora 28-07/multiplicador4x4.xst" -ofn "/home/sd/calculadora 28-07/multiplicador4x4.syr" 
+xst -intstyle ise -ifn "/home/sd/calculadora 28-07/multiplicador4x4.xst" -ofn "/home/sd/calculadora 28-07/multiplicador4x4.syr" 
+xst -intstyle ise -ifn "/home/sd/calculadora 28-07/multiplicador4x4.xst" -ofn "/home/sd/calculadora 28-07/multiplicador4x4.syr" 
+xst -intstyle ise -ifn "/home/sd/calculadora 28-07/multiplicador4x4.xst" -ofn "/home/sd/calculadora 28-07/multiplicador4x4.syr" 
+xst -intstyle ise -ifn "/home/sd/calculadora 28-07/multiplicador4x4.xst" -ofn "/home/sd/calculadora 28-07/multiplicador4x4.syr" 
+xst -intstyle ise -ifn "/home/sd/calculadora 28-07/multiplicador4x4.xst" -ofn "/home/sd/calculadora 28-07/multiplicador4x4.syr" 
+xst -intstyle ise -ifn "/home/sd/calculadora 28-07/multiplicador4x4.xst" -ofn "/home/sd/calculadora 28-07/multiplicador4x4.syr" 
+xst -intstyle ise -ifn "/home/sd/calculadora 28-07/multiplicador4x4.xst" -ofn "/home/sd/calculadora 28-07/multiplicador4x4.syr" 
+xst -intstyle ise -ifn "/home/sd/calculadora 28-07/multiplicador4x4.xst" -ofn "/home/sd/calculadora 28-07/multiplicador4x4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 "multiplicador4x4.ngc" multiplicador4x4.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o multiplicador4x4_map.ncd multiplicador4x4.ngd multiplicador4x4.pcf 
+par -w -intstyle ise -ol high -t 1 multiplicador4x4_map.ncd multiplicador4x4.ncd multiplicador4x4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multiplicador4x4.twx multiplicador4x4.ncd -o multiplicador4x4.twr multiplicador4x4.pcf 
+xst -intstyle ise -ifn "/home/sd/calculadora 05-07/multiplicador4x4.xst" -ofn "/home/sd/calculadora 05-07/multiplicador4x4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 "multiplicador4x4.ngc" multiplicador4x4.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o multiplicador4x4_map.ncd multiplicador4x4.ngd multiplicador4x4.pcf 
+par -w -intstyle ise -ol high -t 1 multiplicador4x4_map.ncd multiplicador4x4.ncd multiplicador4x4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multiplicador4x4.twx multiplicador4x4.ncd -o multiplicador4x4.twr multiplicador4x4.pcf 
+xst -intstyle ise -ifn "/home/sd/calculadora 05-07/multiplicador4x4.xst" -ofn "/home/sd/calculadora 05-07/multiplicador4x4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinagem.ucf -p xc3s700a-fg484-4 "multiplicador4x4.ngc" multiplicador4x4.ngd  

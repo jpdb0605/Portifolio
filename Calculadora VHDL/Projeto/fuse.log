@@ -1,0 +1,26 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/sd/calculadora 05-07/testesomador4dig_isim_beh.exe -prj /home/sd/calculadora 05-07/testesomador4dig_beh.prj work.testesomador4dig 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/sd/calculadora 05-07/bcd_adder.vhd" into library work
+Parsing VHDL file "/home/sd/calculadora 05-07/top_adder.vhd" into library work
+Parsing VHDL file "/home/sd/calculadora 05-07/testesomador4dig.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 97296 KB
+Fuse CPU Usage: 1190 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture arch of entity bcd_adder [bcd_adder_default]
+Compiling architecture behavioral of entity top_adder [top_adder_default]
+Compiling architecture behavior of entity testesomador4dig
+Time Resolution for simulation is 1ps.
+Compiled 10 VHDL Units
+Built simulation executable /home/sd/calculadora 05-07/testesomador4dig_isim_beh.exe
+Fuse Memory Usage: 408928 KB
+Fuse CPU Usage: 1390 ms
+GCC CPU Usage: 330 ms

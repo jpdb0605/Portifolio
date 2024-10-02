@@ -1,0 +1,29 @@
+Command line:
+   testesoma1dig_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  33277
+
+Fri Jul 12 14:59:48 2024
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 195.568 Meg
+
+ Total Signals          : 12
+ Total Nets             : 20
+ Total Signal Drivers   : 4
+ Total Blocks           : 6
+ Total Primitive Blocks : 5
+ Total Processes        : 4
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 522
+Total Line Count : 13
+
+ Total Simulation Time: 4.55 sec
+
+ Current Memory Usage: 273.166 Meg
+
+Fri Jul 12 15:00:28 2024
+

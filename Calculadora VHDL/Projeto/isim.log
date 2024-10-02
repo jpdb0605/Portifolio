@@ -1,0 +1,30 @@
+ISim log file
+Running: /home/sd/calculadora 05-07/testesomador4dig_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/sd/calculadora 05-07/testesomador4dig_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /testesomador4dig/uut/adder1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /testesomador4dig/uut/adder2/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /testesomador4dig/uut/adder2/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /testesomador4dig/uut/adder3/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /testesomador4dig/uut/adder3/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /testesomador4dig/uut/adder4/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /testesomador4dig/uut/adder4/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+Finished circuit initialization process.
+at 0 ps, Instance /testesomador4dig/uut/adder2/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /testesomador4dig/uut/adder3/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /testesomador4dig/uut/adder4/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+# isim force add /testesomador4dig/a 200 -radix unsigned
+# show driver /testesomador4dig/b
+/testesomador4dig/b has no drivers.
+# isim force add /testesomador4dig/b 201 -radix unsigned
+# run all
+Stopped at time : 94263970 ns : File "/home/sd/calculadora 05-07/testesomador4dig.vhd" Line 42
+# exit 0
